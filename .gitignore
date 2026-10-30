@@ -1,0 +1,23 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Node (pptxgenjs é reinstalado com `npm install` em apresentacao/)
+node_modules/
+
+# Streamlit: mantém config.toml, ignora credenciais
+.streamlit/secrets.toml
+
+# Arquivos de sistema e editor
+.DS_Store
+Thumbs.db
+*:Zone.Identifier
+.vscode/
+.idea/
+
+# Temporários do Office/LibreOffice
+~$*
+.~lock.*#

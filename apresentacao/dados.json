@@ -1,0 +1,447 @@
+{
+ "qualidade": {
+  "registros_lidos": 204579,
+  "ids_unicos": true,
+  "ids_sequenciais": true,
+  "municipio_com_espacos_extras": 204579,
+  "municipio_grafia_antiga": {
+   "ITAPAGE": 1070
+  },
+  "nome_caractere_invalido": 16,
+  "nome_com_digito": 1,
+  "nome_ausente": 1,
+  "nome_uma_letra": 6,
+  "spearman_pop_atend": 0.805,
+  "limite_outlier_taxa": 8622.2,
+  "ano_estimativa_populacao": "2026",
+  "taxa_estado_100k": 2326.1,
+  "populacao_ce_2022": 8794957,
+  "pct_feminino_heuristica": 89.8,
+  "verificacoes": [
+   {
+    "verificacao": "Identificadores",
+    "status": "OK",
+    "detalhe": "204.579 IDs únicos e sequenciais de 1 a 204.579"
+   },
+   {
+    "verificacao": "Junção com o IBGE",
+    "status": "OK",
+    "detalhe": "204.579 de 204.579 registros casados com um código IBGE"
+   },
+   {
+    "verificacao": "Cobertura territorial",
+    "status": "OK",
+    "detalhe": "184 dos 184 municípios do Ceará têm atendimentos"
+   },
+   {
+    "verificacao": "Atendimentos acima da população",
+    "status": "OK",
+    "detalhe": "Nenhum município tem mais atendimentos que habitantes; o maior valor é 8,4% da população (Penaforte)"
+   },
+   {
+    "verificacao": "Proporcionalidade à população",
+    "status": "OK",
+    "detalhe": "Correlação de Spearman entre população e atendimentos = 0,81"
+   },
+   {
+    "verificacao": "Valores atípicos na taxa",
+    "status": "OK",
+    "detalhe": "Nenhum município acima do limite de 8.622 por 100 mil hab. (regra do IQR)"
+   },
+   {
+    "verificacao": "Peso da capital",
+    "status": "Alerta",
+    "detalhe": "Fortaleza tem 27,6% da população e 4,6% dos atendimentos"
+   },
+   {
+    "verificacao": "Qualidade do nome",
+    "status": "Alerta",
+    "detalhe": "18 nomes corrigidos ou ausentes (0,009% da base)"
+   }
+  ]
+ },
+ "total": 204579,
+ "municipios": 184,
+ "pop_ce": 8794957,
+ "taxa_estado": 2326.1,
+ "mediana_taxa": 3371.8530757241306,
+ "regioes": [
+  {
+   "mesorregiao": "Noroeste Cearense",
+   "municipios": 47,
+   "atendimentos": 49953,
+   "populacao_2022": 1414700,
+   "taxa_100k": 3530.9959708772176,
+   "participacao_atend_pct": 24.417462202865398,
+   "participacao_pop_pct": 16.085354368418177
+  },
+  {
+   "mesorregiao": "Norte Cearense",
+   "municipios": 36,
+   "atendimentos": 43171,
+   "populacao_2022": 1065595,
+   "taxa_100k": 4051.3515923028917,
+   "participacao_atend_pct": 21.10236143494689,
+   "participacao_pop_pct": 12.115977372032633
+  },
+  {
+   "mesorregiao": "Sertões Cearenses",
+   "municipios": 30,
+   "atendimentos": 30500,
+   "populacao_2022": 861696,
+   "taxa_100k": 3539.5313428401664,
+   "participacao_atend_pct": 14.908666089872371,
+   "participacao_pop_pct": 9.797614701242995
+  },
+  {
+   "mesorregiao": "Metropolitana de Fortaleza",
+   "municipios": 11,
+   "atendimentos": 27949,
+   "populacao_2022": 3595041,
+   "taxa_100k": 777.4320237237906,
+   "participacao_atend_pct": 13.661715034289932,
+   "participacao_pop_pct": 40.87616346504025
+  },
+  {
+   "mesorregiao": "Sul Cearense",
+   "municipios": 25,
+   "atendimentos": 27286,
+   "populacao_2022": 946597,
+   "taxa_100k": 2882.5360739575553,
+   "participacao_atend_pct": 13.337634850106806,
+   "participacao_pop_pct": 10.762951996240574
+  },
+  {
+   "mesorregiao": "Jaguaribe",
+   "municipios": 21,
+   "atendimentos": 14645,
+   "populacao_2022": 542538,
+   "taxa_100k": 2699.350091606487,
+   "participacao_atend_pct": 7.158603766760028,
+   "participacao_pop_pct": 6.1687396538721
+  },
+  {
+   "mesorregiao": "Centro-Sul Cearense",
+   "municipios": 14,
+   "atendimentos": 11075,
+   "populacao_2022": 368790,
+   "taxa_100k": 3003.064074405488,
+   "participacao_atend_pct": 5.413556621158574,
+   "participacao_pop_pct": 4.193198443153276
+  }
+ ],
+ "porte": [
+  {
+   "porte": "Até 20 mil",
+   "at": 44927,
+   "pop": 1112666,
+   "n": 87,
+   "taxa": 4037.8
+  },
+  {
+   "porte": "20 a 50 mil",
+   "at": 69158,
+   "pop": 1815295,
+   "n": 60,
+   "taxa": 3809.7
+  },
+  {
+   "porte": "50 a 100 mil",
+   "at": 51899,
+   "pop": 1991691,
+   "n": 29,
+   "taxa": 2605.8
+  },
+  {
+   "porte": "100 a 500 mil",
+   "at": 29231,
+   "pop": 1446597,
+   "n": 7,
+   "taxa": 2020.7
+  },
+  {
+   "porte": "Acima de 500 mil",
+   "at": 9364,
+   "pop": 2428708,
+   "n": 1,
+   "taxa": 385.6
+  }
+ ],
+ "idhm": [
+  {
+   "faixa": "Baixo",
+   "at": 39814,
+   "pop": 955526,
+   "n": 49,
+   "taxa": 4166.7
+  },
+  {
+   "faixa": "Médio",
+   "at": 148834,
+   "pop": 5002480,
+   "n": 131,
+   "taxa": 2975.2
+  },
+  {
+   "faixa": "Alto",
+   "at": 15931,
+   "pop": 2836951,
+   "n": 4,
+   "taxa": 561.6
+  }
+ ],
+ "spearman_taxa_idhm": -0.34632865728785034,
+ "capital": {
+  "populacao_2022": 2428708.0,
+  "atendimentos": 9364.0,
+  "taxa_100k": 385.55478880128857,
+  "participacao_pop_pct": 27.614779697046842,
+  "participacao_atend_pct": 4.577204893952947,
+  "idhm_2010": 0.754
+ },
+ "rmf": {
+  "participacao_pop_pct": 40.87616346504025,
+  "participacao_atend_pct": 13.661715034289932,
+  "taxa_100k": 777.4320237237906
+ },
+ "top_volume": [
+  {
+   "municipio": "Fortaleza",
+   "atendimentos": 9364,
+   "taxa_100k": 385.55478880128857
+  },
+  {
+   "municipio": "Itapipoca",
+   "atendimentos": 7620,
+   "taxa_100k": 5811.33744651968
+  },
+  {
+   "municipio": "Juazeiro do Norte",
+   "atendimentos": 4495,
+   "taxa_100k": 1571.0191528030198
+  },
+  {
+   "municipio": "Maracanaú",
+   "atendimentos": 4403,
+   "taxa_100k": 1877.5398811985895
+  },
+  {
+   "municipio": "Trairi",
+   "atendimentos": 4377,
+   "taxa_100k": 7492.9384575879485
+  },
+  {
+   "municipio": "Quixadá",
+   "atendimentos": 4018,
+   "taxa_100k": 4773.785761809714
+  },
+  {
+   "municipio": "Tianguá",
+   "atendimentos": 3926,
+   "taxa_100k": 4816.823301352048
+  },
+  {
+   "municipio": "Sobral",
+   "atendimentos": 3789,
+   "taxa_100k": 1866.2910113632445
+  },
+  {
+   "municipio": "Maranguape",
+   "atendimentos": 3728,
+   "taxa_100k": 3547.3342658407314
+  },
+  {
+   "municipio": "Itarema",
+   "atendimentos": 3080,
+   "taxa_100k": 7169.960658332751
+  }
+ ],
+ "maiores_taxa": [
+  {
+   "municipio": "Penaforte",
+   "mesorregiao": "Sul Cearense",
+   "taxa_100k": 8392.777530093625,
+   "atendimentos": 753,
+   "populacao_2022": 8972
+  },
+  {
+   "municipio": "Tejuçuoca",
+   "mesorregiao": "Norte Cearense",
+   "taxa_100k": 7829.0777661186885,
+   "atendimentos": 1343,
+   "populacao_2022": 17154
+  },
+  {
+   "municipio": "Itatira",
+   "mesorregiao": "Norte Cearense",
+   "taxa_100k": 7789.855072463768,
+   "atendimentos": 1591,
+   "populacao_2022": 20424
+  },
+  {
+   "municipio": "Salitre",
+   "mesorregiao": "Sul Cearense",
+   "taxa_100k": 7695.545000901821,
+   "atendimentos": 1280,
+   "populacao_2022": 16633
+  },
+  {
+   "municipio": "Uruburetama",
+   "mesorregiao": "Norte Cearense",
+   "taxa_100k": 7548.665114666403,
+   "atendimentos": 1524,
+   "populacao_2022": 20189
+  },
+  {
+   "municipio": "Trairi",
+   "mesorregiao": "Norte Cearense",
+   "taxa_100k": 7492.9384575879485,
+   "atendimentos": 4377,
+   "populacao_2022": 58415
+  },
+  {
+   "municipio": "Santana do Cariri",
+   "mesorregiao": "Sul Cearense",
+   "taxa_100k": 7278.518343753687,
+   "atendimentos": 1234,
+   "populacao_2022": 16954
+  },
+  {
+   "municipio": "Itarema",
+   "mesorregiao": "Noroeste Cearense",
+   "taxa_100k": 7169.960658332751,
+   "atendimentos": 3080,
+   "populacao_2022": 42957
+  },
+  {
+   "municipio": "Orós",
+   "mesorregiao": "Centro-Sul Cearense",
+   "taxa_100k": 6622.61753494282,
+   "atendimentos": 1303,
+   "populacao_2022": 19675
+  },
+  {
+   "municipio": "Itapiúna",
+   "mesorregiao": "Norte Cearense",
+   "taxa_100k": 6602.768903088392,
+   "atendimentos": 1178,
+   "populacao_2022": 17841
+  }
+ ],
+ "menores_taxa": [
+  {
+   "municipio": "Fortaleza",
+   "mesorregiao": "Metropolitana de Fortaleza",
+   "taxa_100k": 385.55478880128857,
+   "atendimentos": 9364,
+   "populacao_2022": 2428708
+  },
+  {
+   "municipio": "Ereré",
+   "mesorregiao": "Jaguaribe",
+   "taxa_100k": 602.4096385542169,
+   "atendimentos": 39,
+   "populacao_2022": 6474
+  },
+  {
+   "municipio": "Eusébio",
+   "mesorregiao": "Metropolitana de Fortaleza",
+   "taxa_100k": 690.3060536605096,
+   "atendimentos": 512,
+   "populacao_2022": 74170
+  },
+  {
+   "municipio": "Caucaia",
+   "mesorregiao": "Metropolitana de Fortaleza",
+   "taxa_100k": 823.7764950981082,
+   "atendimentos": 2930,
+   "populacao_2022": 355679
+  },
+  {
+   "municipio": "Horizonte",
+   "mesorregiao": "Metropolitana de Fortaleza",
+   "taxa_100k": 836.0644772924887,
+   "atendimentos": 625,
+   "populacao_2022": 74755
+  },
+  {
+   "municipio": "Itaitinga",
+   "mesorregiao": "Metropolitana de Fortaleza",
+   "taxa_100k": 844.5475638051043,
+   "atendimentos": 546,
+   "populacao_2022": 64650
+  },
+  {
+   "municipio": "Deputado Irapuan Pinheiro",
+   "mesorregiao": "Sertões Cearenses",
+   "taxa_100k": 985.2216748768473,
+   "atendimentos": 88,
+   "populacao_2022": 8932
+  },
+  {
+   "municipio": "Aracati",
+   "mesorregiao": "Jaguaribe",
+   "taxa_100k": 1027.784804228296,
+   "atendimentos": 772,
+   "populacao_2022": 75113
+  },
+  {
+   "municipio": "Iguatu",
+   "mesorregiao": "Centro-Sul Cearense",
+   "taxa_100k": 1236.94729972263,
+   "atendimentos": 1213,
+   "populacao_2022": 98064
+  },
+  {
+   "municipio": "Barbalha",
+   "mesorregiao": "Sul Cearense",
+   "taxa_100k": 1288.7662761718177,
+   "atendimentos": 967,
+   "populacao_2022": 75033
+  }
+ ],
+ "top_nomes": [
+  {
+   "nome": "MARIA",
+   "n": 48242
+  },
+  {
+   "nome": "FRANCISCA",
+   "n": 14179
+  },
+  {
+   "nome": "ANTONIA",
+   "n": 12346
+  },
+  {
+   "nome": "ANA",
+   "n": 9478
+  },
+  {
+   "nome": "CICERA",
+   "n": 2361
+  },
+  {
+   "nome": "FRANCISCO",
+   "n": 2192
+  },
+  {
+   "nome": "RAIMUNDA",
+   "n": 1320
+  },
+  {
+   "nome": "JOSE",
+   "n": 1225
+  },
+  {
+   "nome": "ANTONIO",
+   "n": 1225
+  },
+  {
+   "nome": "RITA",
+   "n": 1117
+  }
+ ],
+ "pct_top4_nomes": 41.17969097512452,
+ "top10_pct_volume": 23.853865743795797
+}

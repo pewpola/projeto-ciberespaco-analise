@@ -1,0 +1,61 @@
+{
+  "registros_lidos": 204579,
+  "ids_unicos": true,
+  "ids_sequenciais": true,
+  "municipio_com_espacos_extras": 204579,
+  "municipio_grafia_antiga": {
+    "ITAPAGE": 1070
+  },
+  "nome_caractere_invalido": 16,
+  "nome_com_digito": 1,
+  "nome_ausente": 1,
+  "nome_uma_letra": 6,
+  "spearman_pop_atend": 0.805,
+  "limite_outlier_taxa": 8622.2,
+  "ano_estimativa_populacao": "2026",
+  "taxa_estado_100k": 2326.1,
+  "populacao_ce_2022": 8794957,
+  "pct_feminino_heuristica": 89.8,
+  "verificacoes": [
+    {
+      "verificacao": "Identificadores",
+      "status": "OK",
+      "detalhe": "204.579 IDs únicos e sequenciais de 1 a 204.579"
+    },
+    {
+      "verificacao": "Junção com o IBGE",
+      "status": "OK",
+      "detalhe": "204.579 de 204.579 registros casados com um código IBGE"
+    },
+    {
+      "verificacao": "Cobertura territorial",
+      "status": "OK",
+      "detalhe": "184 dos 184 municípios do Ceará têm atendimentos"
+    },
+    {
+      "verificacao": "Atendimentos acima da população",
+      "status": "OK",
+      "detalhe": "Nenhum município tem mais atendimentos que habitantes; o maior valor é 8,4% da população (Penaforte)"
+    },
+    {
+      "verificacao": "Proporcionalidade à população",
+      "status": "OK",
+      "detalhe": "Correlação de Spearman entre população e atendimentos = 0,81"
+    },
+    {
+      "verificacao": "Valores atípicos na taxa",
+      "status": "OK",
+      "detalhe": "Nenhum município acima do limite de 8.622 por 100 mil hab. (regra do IQR)"
+    },
+    {
+      "verificacao": "Peso da capital",
+      "status": "Alerta",
+      "detalhe": "Fortaleza tem 27,6% da população e 4,6% dos atendimentos"
+    },
+    {
+      "verificacao": "Qualidade do nome",
+      "status": "Alerta",
+      "detalhe": "18 nomes corrigidos ou ausentes (0,009% da base)"
+    }
+  ]
+}
